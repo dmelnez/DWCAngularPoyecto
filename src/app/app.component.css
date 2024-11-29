@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .categorias-container {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .detalles-container .card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  

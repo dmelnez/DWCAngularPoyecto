@@ -1,0 +1,18 @@
+<div *ngIf="libros.length > 0" class="detalles-container">
+    <h3>Detalles de los Libros</h3>
+    <div *ngFor="let libro of libros" class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ libro.titulo }}</h5>
+        <p class="card-text"><strong>Autor:</strong> {{ libro.autor }}</p>
+        <p class="card-text"><strong>Páginas:</strong> {{ libro.paginas }}</p>
+        <p class="card-text"><strong>Descripción:</strong> {{ libro.descripcion }}</p>
+        <p class="card-text">
+          <strong>Edición:</strong> {{ libro.edicion }} - <strong>Ventas:</strong> {{ libro.ventas }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="libros.length === 0" class="alert alert-info">
+    No hay libros disponibles para esta categoría.
+  </div>
+  

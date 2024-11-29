@@ -1,0 +1,231 @@
+{
+    "libros": [
+      {
+        "categoria": "Romance",
+        "titulo": "Orgullo y Prejuicio",
+        "autor": "Jane Austen",
+        "paginas": 432,
+        "descripcion": "Un clásico de la literatura romántica.",
+        "edicion": "3ª",
+        "ventas": 2000000,
+        "imagen": "img/OrgulloYPrejuicio.jpg"
+      },
+      {
+        "categoria": "Romance",
+        "titulo": "Cumbres Borrascosas",
+        "autor": "Emily Brontë",
+        "paginas": 416,
+        "descripcion": "Una historia de amor apasionado y venganza.",
+        "edicion": "2ª",
+        "ventas": 1500000
+      },
+      {
+        "categoria": "Romance",
+        "titulo": "Jane Eyre",
+        "autor": "Charlotte Brontë",
+        "paginas": 524,
+        "descripcion": "La historia de una mujer que lucha por su independencia.",
+        "edicion": "1ª",
+        "ventas": 1800000
+      },
+      {
+        "categoria": "Romance",
+        "titulo": "El Gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "paginas": 218,
+        "descripcion": "Un relato sobre el amor, el lujo y la desilusión.",
+        "edicion": "4ª",
+        "ventas": 1200000
+      },
+      {
+        "categoria": "Romance",
+        "titulo": "Ana Karenina",
+        "autor": "León Tolstói",
+        "paginas": 864,
+        "descripcion": "Una trágica historia de amor y moralidad.",
+        "edicion": "5ª",
+        "ventas": 2100000
+      },
+      {
+        "categoria": "Física",
+        "titulo": "Breve Historia del Tiempo",
+        "autor": "Stephen Hawking",
+        "paginas": 256,
+        "descripcion": "Una introducción al cosmos.",
+        "edicion": "1ª",
+        "ventas": 500000
+      },
+      {
+        "categoria": "Física",
+        "titulo": "Los Tres Primeros Minutos",
+        "autor": "Steven Weinberg",
+        "paginas": 256,
+        "descripcion": "Exploración del origen del universo.",
+        "edicion": "2ª",
+        "ventas": 350000
+      },
+      {
+        "categoria": "Física",
+        "titulo": "El Universo Elegante",
+        "autor": "Brian Greene",
+        "paginas": 464,
+        "descripcion": "Un análisis sobre la teoría de cuerdas.",
+        "edicion": "3ª",
+        "ventas": 400000
+      },
+      {
+        "categoria": "Física",
+        "titulo": "Sobre la Teoría de la Relatividad",
+        "autor": "Albert Einstein",
+        "paginas": 152,
+        "descripcion": "Explicación de la teoría de la relatividad especial y general.",
+        "edicion": "1ª",
+        "ventas": 250000
+      },
+      {
+        "categoria": "Física",
+        "titulo": "El Gran Diseño",
+        "autor": "Stephen Hawking y Leonard Mlodinow",
+        "paginas": 208,
+        "descripcion": "Reflexión sobre la existencia del universo.",
+        "edicion": "4ª",
+        "ventas": 300000
+      },
+      {
+        "categoria": "Teatro",
+        "titulo": "Hamlet",
+        "autor": "William Shakespeare",
+        "paginas": 342,
+        "descripcion": "Un príncipe danés busca vengar a su padre.",
+        "edicion": "1ª",
+        "ventas": 1000000
+      },
+      {
+        "categoria": "Teatro",
+        "titulo": "La Casa de Bernarda Alba",
+        "autor": "Federico García Lorca",
+        "paginas": 192,
+        "descripcion": "Una tragedia rural española.",
+        "edicion": "2ª",
+        "ventas": 600000
+      },
+      {
+        "categoria": "Teatro",
+        "titulo": "Edipo Rey",
+        "autor": "Sófocles",
+        "paginas": 152,
+        "descripcion": "Un clásico de la tragedia griega.",
+        "edicion": "3ª",
+        "ventas": 750000
+      },
+      {
+        "categoria": "Teatro",
+        "titulo": "Un Tranvía Llamado Deseo",
+        "autor": "Tennessee Williams",
+        "paginas": 288,
+        "descripcion": "Un drama sobre la decadencia del sueño americano.",
+        "edicion": "1ª",
+        "ventas": 500000
+      },
+      {
+        "categoria": "Teatro",
+        "titulo": "El Rey Lear",
+        "autor": "William Shakespeare",
+        "paginas": 328,
+        "descripcion": "Una tragedia sobre poder, traición y lealtad.",
+        "edicion": "4ª",
+        "ventas": 900000
+      },
+      {
+        "categoria": "Educativos",
+        "titulo": "Aprenda Inglés en 30 Días",
+        "autor": "John Walker",
+        "paginas": 200,
+        "descripcion": "Un manual práctico para aprender inglés.",
+        "edicion": "5ª",
+        "ventas": 120000
+      },
+      {
+        "categoria": "Educativos",
+        "titulo": "Matemáticas para Todos",
+        "autor": "Jane Doe",
+        "paginas": 350,
+        "descripcion": "Una introducción a las matemáticas básicas.",
+        "edicion": "3ª",
+        "ventas": 180000
+      },
+      {
+        "categoria": "Educativos",
+        "titulo": "Historia del Arte",
+        "autor": "Michael Smith",
+        "paginas": 480,
+        "descripcion": "Un recorrido por el arte desde la prehistoria.",
+        "edicion": "1ª",
+        "ventas": 100000
+      },
+      {
+        "categoria": "Educativos",
+        "titulo": "Ciencia para Niños",
+        "autor": "Emily Brown",
+        "paginas": 120,
+        "descripcion": "Introducción a la ciencia para los más pequeños.",
+        "edicion": "2ª",
+        "ventas": 90000
+      },
+      {
+        "categoria": "Educativos",
+        "titulo": "Programación Básica en Python",
+        "autor": "Alex García",
+        "paginas": 250,
+        "descripcion": "Primeros pasos en programación con Python.",
+        "edicion": "4ª",
+        "ventas": 150000
+      },
+      {
+        "categoria": "Negocios",
+        "titulo": "Padre Rico, Padre Pobre",
+        "autor": "Robert Kiyosaki",
+        "paginas": 336,
+        "descripcion": "Un enfoque diferente sobre el dinero y las inversiones.",
+        "edicion": "6ª",
+        "ventas": 2000000
+      },
+      {
+        "categoria": "Negocios",
+        "titulo": "El Arte de la Guerra",
+        "autor": "Sun Tzu",
+        "paginas": 256,
+        "descripcion": "Clásico de la estrategia aplicado a los negocios.",
+        "edicion": "1ª",
+        "ventas": 1000000
+      },
+      {
+        "categoria": "Negocios",
+        "titulo": "Piense y Hágase Rico",
+        "autor": "Napoleon Hill",
+        "paginas": 300,
+        "descripcion": "Lecciones sobre éxito y emprendimiento.",
+        "edicion": "3ª",
+        "ventas": 1500000
+      },
+      {
+        "categoria": "Negocios",
+        "titulo": "La Estrategia del Océano Azul",
+        "autor": "W. Chan Kim",
+        "paginas": 256,
+        "descripcion": "Cómo crear un espacio de mercado sin competencia.",
+        "edicion": "2ª",
+        "ventas": 800000
+      },
+      {
+        "categoria": "Negocios",
+        "titulo": "Los Siete Hábitos de la Gente Altamente Efectiva",
+        "autor": "Stephen Covey",
+        "paginas": 384,
+        "descripcion": "Guía para la mejora personal y profesional.",
+        "edicion": "5ª",
+        "ventas": 1300000
+      }
+    ]
+  }
+  
