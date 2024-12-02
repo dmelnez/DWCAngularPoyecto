@@ -225,6 +225,326 @@
         "descripcion": "Guía para la mejora personal y profesional.",
         "edicion": "5ª",
         "ventas": 1300000
+      },
+      {
+        "titulo": "El amor en los tiempos del cólera",
+        "autor": "Gabriel García Márquez",
+        "paginas": 368,
+        "descripcion": "Una historia de amor que desafía el tiempo.",
+        "edicion": "Primera",
+        "ventas": 500000,
+        "categoria": "Romance",
+        "imagen": "assets/imagenes/el-amor-en-los-tiempos-del-colera.jpg"
+      },
+      {
+        "titulo": "Orgullo y prejuicio",
+        "autor": "Jane Austen",
+        "paginas": 432,
+        "descripcion": "Un clásico de la literatura romántica.",
+        "edicion": "Tercera",
+        "ventas": 1200000,
+        "categoria": "Romance",
+        "imagen": "assets/imagenes/orgullo-y-prejuicio.jpg"
+      },
+      {
+        "titulo": "Cumbres borrascosas",
+        "autor": "Emily Brontë",
+        "paginas": 416,
+        "descripcion": "Un amor tormentoso y apasionado.",
+        "edicion": "Segunda",
+        "ventas": 800000,
+        "categoria": "Romance",
+        "imagen": "assets/imagenes/cumbres-borrascosas.jpg"
+      },
+      {
+        "titulo": "Romeo y Julieta",
+        "autor": "William Shakespeare",
+        "paginas": 120,
+        "descripcion": "Una de las tragedias románticas más famosas.",
+        "edicion": "Cuarta",
+        "ventas": 1500000,
+        "categoria": "Romance",
+        "imagen": "assets/imagenes/romeo-y-julieta.jpg"
+      },
+      {
+        "titulo": "Bajo la misma estrella",
+        "autor": "John Green",
+        "paginas": 313,
+        "descripcion": "Una historia conmovedora sobre el amor y la vida.",
+        "edicion": "Primera",
+        "ventas": 2000000,
+        "categoria": "Romance",
+        "imagen": "assets/imagenes/bajo-la-misma-estrella.jpg"
+      },
+      {
+        "titulo": "Breve historia del tiempo",
+        "autor": "Stephen Hawking",
+        "paginas": 212,
+        "descripcion": "Un viaje a través del cosmos.",
+        "edicion": "Primera",
+        "ventas": 3000000,
+        "categoria": "Física",
+        "imagen": "assets/imagenes/breve-historia-del-tiempo.jpg"
+      },
+      {
+        "titulo": "El universo en una cáscara de nuez",
+        "autor": "Stephen Hawking",
+        "paginas": 224,
+        "descripcion": "Una exploración de las leyes del universo.",
+        "edicion": "Segunda",
+        "ventas": 1500000,
+        "categoria": "Física",
+        "imagen": "assets/imagenes/el-universo-en-una-cascara-de-nuez.jpg"
+      },
+      {
+        "titulo": "Cosmos",
+        "autor": "Carl Sagan",
+        "paginas": 384,
+        "descripcion": "La historia del universo y nuestra relación con él.",
+        "edicion": "Tercera",
+        "ventas": 2000000,
+        "categoria": "Física",
+        "imagen": "assets/imagenes/cosmos.jpg"
+      },
+      {
+        "titulo": "La teoría del todo",
+        "autor": "Stephen Hawking",
+        "paginas": 176,
+        "descripcion": "Una breve historia del origen del universo.",
+        "edicion": "Primera",
+        "ventas": 1200000,
+        "categoria": "Física",
+        "imagen": "assets/imagenes/la-teoria-del-todo.jpg"
+      },
+      {
+        "titulo": "Agujeros negros y pequeños universos",
+        "autor": "Stephen Hawking",
+        "paginas": 208,
+        "descripcion": "Una fascinante introducción a la física moderna.",
+        "edicion": "Cuarta",
+        "ventas": 800000,
+        "categoria": "Física",
+        "imagen": "assets/imagenes/agujeros-negros.jpg"
+      },
+      {
+        "titulo": "Hamlet",
+        "autor": "William Shakespeare",
+        "paginas": 160,
+        "descripcion": "Una de las obras más grandes de la literatura universal.",
+        "edicion": "Primera",
+        "ventas": 1800000,
+        "categoria": "Teatro",
+        "imagen": "assets/imagenes/hamlet.jpg"
+      },
+      {
+        "titulo": "La casa de Bernarda Alba",
+        "autor": "Federico García Lorca",
+        "paginas": 96,
+        "descripcion": "Un retrato profundo de la sociedad española.",
+        "edicion": "Segunda",
+        "ventas": 900000,
+        "categoria": "Teatro",
+        "imagen": "assets/imagenes/la-casa-de-bernarda-alba.jpg"
+      },
+      {
+        "titulo": "Esperando a Godot",
+        "autor": "Samuel Beckett",
+        "paginas": 112,
+        "descripcion": "Una obra clave del teatro absurdo.",
+        "edicion": "Tercera",
+        "ventas": 700000,
+        "categoria": "Teatro",
+        "imagen": "assets/imagenes/esperando-a-godot.jpg"
+      },
+      {
+        "titulo": "El rey Lear",
+        "autor": "William Shakespeare",
+        "paginas": 144,
+        "descripcion": "Un drama sobre el poder y la traición.",
+        "edicion": "Primera",
+        "ventas": 1200000,
+        "categoria": "Teatro",
+        "imagen": "assets/imagenes/el-rey-lear.jpg"
+      },
+      {
+        "titulo": "La gaviota",
+        "autor": "Antón Chéjov",
+        "paginas": 100,
+        "descripcion": "Una obra maestra del teatro ruso.",
+        "edicion": "Segunda",
+        "ventas": 500000,
+        "categoria": "Teatro",
+        "imagen": "assets/imagenes/la-gaviota.jpg"
+      },
+      {
+        "titulo": "Crimen y castigo",
+        "autor": "Fiódor Dostoyevski",
+        "paginas": 576,
+        "descripcion": "Un profundo análisis psicológico de la culpa.",
+        "edicion": "Primera",
+        "ventas": 1200000,
+        "categoria": "Clásicos",
+        "imagen": "assets/imagenes/crimen-y-castigo.jpg"
+      },
+      {
+        "titulo": "Moby Dick",
+        "autor": "Herman Melville",
+        "paginas": 752,
+        "descripcion": "La epopeya de un marinero obsesionado con una ballena.",
+        "edicion": "Segunda",
+        "ventas": 800000,
+        "categoria": "Clásicos",
+        "imagen": "assets/imagenes/moby-dick.jpg"
+      },
+      {
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "paginas": 1100,
+        "descripcion": "Una sátira de las novelas de caballería.",
+        "edicion": "Tercera",
+        "ventas": 2500000,
+        "categoria": "Clásicos",
+        "imagen": "assets/imagenes/don-quijote.jpg"
+      },
+      {
+        "titulo": "La Odisea",
+        "autor": "Homero",
+        "paginas": 560,
+        "descripcion": "El épico viaje de Odiseo para regresar a casa.",
+        "edicion": "Primera",
+        "ventas": 2000000,
+        "categoria": "Clásicos",
+        "imagen": "assets/imagenes/la-odisea.jpg"
+      },
+      {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "paginas": 328,
+        "descripcion": "Una crítica a los regímenes totalitarios.",
+        "edicion": "Cuarta",
+        "ventas": 3000000,
+        "categoria": "Ciencia Ficción",
+        "imagen": "assets/imagenes/1984.jpg"
+      },
+      {
+        "titulo": "Un mundo feliz",
+        "autor": "Aldous Huxley",
+        "paginas": 288,
+        "descripcion": "Una visión distópica de un futuro controlado.",
+        "edicion": "Primera",
+        "ventas": 2200000,
+        "categoria": "Ciencia Ficción",
+        "imagen": "assets/imagenes/un-mundo-feliz.jpg"
+      },
+      {
+        "titulo": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "paginas": 256,
+        "descripcion": "Una advertencia sobre la censura y el control cultural.",
+        "edicion": "Segunda",
+        "ventas": 1800000,
+        "categoria": "Ciencia Ficción",
+        "imagen": "assets/imagenes/fahrenheit-451.jpg"
+      },
+      {
+        "titulo": "Dune",
+        "autor": "Frank Herbert",
+        "paginas": 688,
+        "descripcion": "Una épica espacial en un mundo desértico.",
+        "edicion": "Primera",
+        "ventas": 1200000,
+        "categoria": "Ciencia Ficción",
+        "imagen": "assets/imagenes/dune.jpg"
+      },
+      {
+        "titulo": "Fundación",
+        "autor": "Isaac Asimov",
+        "paginas": 256,
+        "descripcion": "El inicio de una de las sagas más influyentes.",
+        "edicion": "Primera",
+        "ventas": 1500000,
+        "categoria": "Ciencia Ficción",
+        "imagen": "assets/imagenes/fundacion.jpg"
+      },
+      {
+        "titulo": "El señor de los anillos: La comunidad del anillo",
+        "autor": "J.R.R. Tolkien",
+        "paginas": 480,
+        "descripcion": "El inicio de una de las sagas de fantasía más famosas.",
+        "edicion": "Primera",
+        "ventas": 3000000,
+        "categoria": "Fantasía",
+        "imagen": "assets/imagenes/comunidad-del-anillo.jpg"
+      },
+      {
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "paginas": 309,
+        "descripcion": "La historia de un niño mago y sus aventuras en Hogwarts.",
+        "edicion": "Primera",
+        "ventas": 5000000,
+        "categoria": "Fantasía",
+        "imagen": "assets/imagenes/harry-potter.jpg"
+      },
+      {
+        "titulo": "El hobbit",
+        "autor": "J.R.R. Tolkien",
+        "paginas": 310,
+        "descripcion": "La aventura que llevó a Bilbo Baggins a la Montaña Solitaria.",
+        "edicion": "Primera",
+        "ventas": 4000000,
+        "categoria": "Fantasía",
+        "imagen": "assets/imagenes/el-hobbit.jpg"
+      },
+      {
+        "titulo": "Canción de hielo y fuego: Juego de tronos",
+        "autor": "George R.R. Martin",
+        "paginas": 694,
+        "descripcion": "Intrigas, guerras y dragones en los Siete Reinos.",
+        "edicion": "Primera",
+        "ventas": 2500000,
+        "categoria": "Fantasía",
+        "imagen": "assets/imagenes/juego-de-tronos.jpg"
+      },
+      {
+        "titulo": "Las crónicas de Narnia: El león, la bruja y el armario",
+        "autor": "C.S. Lewis",
+        "paginas": 208,
+        "descripcion": "Una entrada mágica a un mundo de fantasía.",
+        "edicion": "Primera",
+        "ventas": 2000000,
+        "categoria": "Fantasía",
+        "imagen": "assets/imagenes/las-cronicas-de-narnia.jpg"
+      },
+      {
+        "titulo": "Sherlock Holmes: Estudio en escarlata",
+        "autor": "Arthur Conan Doyle",
+        "paginas": 123,
+        "descripcion": "El primer caso del famoso detective Sherlock Holmes.",
+        "edicion": "Primera",
+        "ventas": 1800000,
+        "categoria": "Misterio",
+        "imagen": "assets/imagenes/estudio-en-escarlata.jpg"
+      },
+      {
+        "titulo": "El código Da Vinci",
+        "autor": "Dan Brown",
+        "paginas": 489,
+        "descripcion": "Una trama de misterio y conspiración en el arte.",
+        "edicion": "Primera",
+        "ventas": 7000000,
+        "categoria": "Misterio",
+        "imagen": "assets/imagenes/el-codigo-da-vinci.jpg"
+      },
+      {
+        "titulo": "La chica del tren",
+        "autor": "Paula Hawkins",
+        "paginas": 395,
+        "descripcion": "Un thriller psicológico que te mantendrá en vilo.",
+        "edicion": "Primera",
+        "ventas": 3000000,
+        "categoria": "Misterio",
+        "imagen": "assets/imagenes/la-chica-del-tren.jpg"
       }
     ]
   }
