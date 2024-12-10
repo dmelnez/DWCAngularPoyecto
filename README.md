@@ -1,27 +1,94 @@
-# DavidMLibreria
+# **Biblioteca David Meléndez**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+---
 
-## Development server
+## **Descripción General**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto es una aplicación web desarrollada con Angular para gestionar una biblioteca digital. La plataforma permite explorar libros por categorías, ver detalles de cada libro y añadir nuevos títulos a la colección mediante una interfaz amigable y responsiva.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## **Características Principales**
 
-## Build
+### **1. Visualización de Libros**
+- **Explorar Categorías:** Los usuarios pueden navegar por una lista de categorías predefinidas para filtrar libros de interés.
+- **Detalles del Libro:** Cada libro presenta información detallada, incluyendo:
+  - Título
+  - Autor
+  - Número de páginas
+  - Descripción
+  - Edición
+  - Ventas
+  - Imagen de portada
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### **2. Gestión de Nuevos Libros**
+- **Añadir Libros:** Los usuarios pueden agregar nuevos libros proporcionando datos como título, autor, categoría, y una imagen de portada.
+- **Categorías Predefinidas:** Un menú desplegable asegura consistencia en las categorías, evitando errores.
 
-## Running unit tests
+### **3. Diseño Responsivo**
+- **Diseño Profesional:** Implementado con Bootstrap para asegurar una experiencia visual y funcional óptima en dispositivos móviles y de escritorio.
+- **Estructura en Dos Columnas:** Los libros se muestran en una cuadrícula para facilitar la navegación.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## **Estructura del Proyecto**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### **Frontend**
+- **Framework:** Angular
+- **Componentes Principales:**
+  - `AppComponent`: Punto de entrada principal.
+  - `CategoriasComponent`: Permite seleccionar categorías de libros.
+  - `DetallesComponent`: Muestra detalles del libro seleccionado.
+  - `AniadirComponent`: Formulario para añadir nuevos libros.
+- **Estilos:** Uso extensivo de Bootstrap para la interfaz de usuario.
 
-## Further help
+### **Backend**
+- **Simulación con JSON Server:**
+  - El backend utiliza un archivo `db.json` que actúa como fuente de datos para los libros.
+  - La API permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## **Flujo de Trabajo**
+
+1. **Inicio:**
+   - El usuario es recibido con una lista de categorías.
+2. **Explorar Libros:**
+   - Al seleccionar una categoría, se muestra una lista de libros correspondientes.
+3. **Ver Detalles:**
+   - Cada libro incluye una tarjeta con detalles clave e imagen de portada.
+4. **Agregar Libros:**
+   - Los usuarios pueden añadir libros mediante un formulario con validaciones.
+
+---
+
+## **Requerimientos**
+
+- **Entorno de Desarrollo:**
+  - Node.js (>= 14.x)
+  - Angular CLI (>= 15.x)
+- **Dependencias Clave:**
+  - `@angular/common/http`: Para la comunicación con la API.
+  - `bootstrap`: Para estilos responsivos.
+  - `json-server`: Para la simulación de la API backend.
+
+---
+
+## **Configuración y Despliegue**
+
+1. **Instalar Dependencias:**
+   ```bash
+   npm install
+
+    Iniciar el Servidor JSON:
+
+- npx json-server --watch db.json --port 3000
+
+**Iniciar la Aplicación Angular:**
+
+ - ng serve
+
+**Acceder a la Aplicación:**
+
+    - Frontend: http://localhost:4200
+    - API Backend: http://localhost:3000/libros
