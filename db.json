@@ -283,6 +283,17 @@
       "ventas": 99999,
       "imagen": "aa",
       "categoria": "Negocios"
+    },
+    {
+      "id": "8c49",
+      "titulo": "Trompas de falopio",
+      "autor": "Carlos Haro Mohammed",
+      "paginas": 89,
+      "descripcion": "es un libro educativo",
+      "edicion": "9",
+      "ventas": 99,
+      "imagen": "imagen",
+      "categoria": "Educativos"
     }
   ]
 }

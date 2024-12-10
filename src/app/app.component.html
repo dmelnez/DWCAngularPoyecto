@@ -1,12 +1,25 @@
 <div class="container mt-4">
   <div class="row">
+    <!-- Sección de Categorías -->
     <div class="col-md-4">
       <app-categorias (categoriaSeleccionada)="onCategoriaSeleccionada($event)"></app-categorias>
     </div>
+
+    <!-- Sección de Detalles -->
     <div class="col-md-8">
       <app-detalles [libros]="librosSeleccionados"></app-detalles>
     </div>
   </div>
-  <hr />
-  <app-aniadir></app-aniadir>
+
+  <!-- Botón para añadir nuevo libro -->
+  <div class="mt-4 text-center">
+    <button class="btn btn-primary" (click)="toggleFormulario()">
+      {{ mostrarFormulario ? 'Cancelar' : 'Añadir Nuevo Libro' }}
+    </button>
+  </div>
+
+  <!-- Formulario de añadir nuevo libro -->
+  <div class="mt-3" *ngIf="mostrarFormulario">
+    <app-aniadir></app-aniadir>
+  </div>
 </div>
