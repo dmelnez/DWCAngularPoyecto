@@ -4,11 +4,9 @@
   <div *ngFor="let libro of libros" class="card mb-3">
     <div class="card-body">
       <h5 class="card-title">{{ libro.titulo }}</h5>
-      <p class="card-text"><strong>Portada:</strong> {{ libro.imagen }}</p>
       <p class="card-text"><strong>Autor:</strong> {{ libro.autor }}</p>
       <p class="card-text"><strong>Páginas:</strong> {{ libro.paginas }}</p>
       <p class="card-text"><strong>Descripción:</strong> {{ libro.descripcion }}</p>
-      <p class="card-text"><strong>Imagen:</strong> {{ libro.imagen }}</p>
 
       <p class="card-text">
         <strong>Edición:</strong> {{ libro.edicion }} - <strong>Ventas:</strong> {{ libro.ventas }}

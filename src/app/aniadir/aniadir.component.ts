@@ -1,7 +1,7 @@
-import { Component } from '@angular/core'; // Importa el decorador 'Component' para definir el componente de Angular
-import { CommonModule } from '@angular/common'; // Importa CommonModule, necesario para usar directivas como *ngIf, *ngFor
-import { FormsModule } from '@angular/forms'; // Importa FormsModule para el manejo de formularios (ngModel)
-import { LibrosService } from '../servicios/libros.service'; // Importa el servicio 'LibrosService' que se utiliza para interactuar con la API
+import { Component } from '@angular/core'; 
+import { CommonModule } from '@angular/common'; 
+import { FormsModule } from '@angular/forms'; 
+import { LibrosService } from '../servicios/libros.service';
 
 @Component({
   selector: 'app-aniadir', // El selector que se usará para incluir este componente en otras plantillas
@@ -19,7 +19,6 @@ export class AniadirComponent {
     descripcion: '', // Descripción del libro
     edicion: '', // Edición del libro
     ventas: 0, // Número de ventas
-    imagen: '', // URL de la imagen del libro
     categoria: '', // Categoría del libro
   };
 
@@ -66,7 +65,6 @@ export class AniadirComponent {
       descripcion: '',
       edicion: '',
       ventas: 0,
-      imagen: '',
       categoria: '',
     };
   }

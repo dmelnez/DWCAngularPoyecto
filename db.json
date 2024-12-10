@@ -8,7 +8,6 @@
       "descripcion": "Un clásico de la literatura romántica.",
       "edicion": "3ª",
       "ventas": 2000000,
-      "imagen": "img/OrgulloYPrejuicio.jpg",
       "id": "6dce"
     },
     {
@@ -252,47 +251,13 @@
       "id": "2bc3"
     },
     {
-      "id": "aea6",
-      "titulo": "pepito",
-      "autor": "adwkwkl",
-      "paginas": 99,
-      "descripcion": "fsefe",
-      "edicion": "sefesefs",
-      "ventas": null,
-      "imagen": "aaa",
-      "categoria": "Teatro"
-    },
-    {
-      "id": "ea90",
-      "titulo": "prueba",
-      "autor": "a",
-      "paginas": null,
-      "descripcion": "a",
-      "edicion": "a",
-      "ventas": null,
-      "imagen": "aaaaa",
-      "categoria": "Romance"
-    },
-    {
-      "id": "d72f",
-      "titulo": "prueba libro",
-      "autor": "david",
-      "paginas": 99,
-      "descripcion": "prueba",
-      "edicion": "9",
-      "ventas": 99999,
-      "imagen": "aa",
-      "categoria": "Negocios"
-    },
-    {
-      "id": "8c49",
-      "titulo": "Trompas de falopio",
-      "autor": "Carlos Haro Mohammed",
-      "paginas": 89,
-      "descripcion": "es un libro educativo",
-      "edicion": "9",
-      "ventas": 99,
-      "imagen": "imagen",
+      "id": "0ba7",
+      "titulo": "Libro de programacion",
+      "autor": "Altair",
+      "paginas": 299,
+      "descripcion": "Libro de documentación de programación de java",
+      "edicion": "2",
+      "ventas": 3000,
       "categoria": "Educativos"
     }
   ]

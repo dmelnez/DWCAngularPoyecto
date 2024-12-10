@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router'; // Importa el módulo RouterOutlet para manejar las rutas
+import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common'; // Importa el CommonModule, necesario para usar directivas comunes como ngIf, ngFor, etc.
 import { CategoriasComponent } from './categorias/categorias.component'; // Componente para mostrar las categorías
 import { DetallesComponent } from './detalles/detalles.component'; // Componente para mostrar detalles de los libros
@@ -41,7 +41,6 @@ export class AppComponent {
         descripcion: libro.descripcion || 'Descripción no disponible', // Si no hay descripción, se asigna un texto predeterminado
         edicion: libro.edicion || 'Desconocida', // Si no hay edición, se asigna 'Desconocida'
         ventas: libro.ventas || 0, // Si no hay ventas, se asigna 0
-        imagen: libro.imagen || 'assets/images/default.png', // Si no hay imagen, se asigna una imagen por defecto
       }));
     });
   }

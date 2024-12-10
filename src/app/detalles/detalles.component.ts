@@ -1,6 +1,5 @@
-import { Component, Input } from '@angular/core'; // Importa los decoradores necesarios para definir el componente y la propiedad de entrada
-import { CommonModule } from '@angular/common'; // Importa CommonModule, necesario para las directivas de Angular como *ngIf y *ngFor
-
+import { Component, Input } from '@angular/core'; 
+import { CommonModule } from '@angular/common'; 
 @Component({
   selector: 'app-detalles', // Nombre del selector para utilizar este componente en la plantilla
   standalone: true, // Indica que el componente es independiente y no necesita ser parte de un módulo
@@ -18,11 +17,7 @@ import { CommonModule } from '@angular/common'; // Importa CommonModule, necesar
       <div class="card mb-3" *ngFor="let libro of libros" style="max-width: 540px;">
         <div class="row g-0">
           
-          <!-- Columna para la imagen del libro -->
-          <div class="col-md-4">
-            <img [src]="libro.imagen" class="img-fluid rounded-start" alt="Imagen de {{ libro.titulo }}" />
-          </div>
-          
+
           <!-- Columna para los detalles del libro -->
           <div class="col-md-8">
             <div class="card-body">
