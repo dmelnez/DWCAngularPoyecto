@@ -10,11 +10,8 @@ import { CommonModule } from '@angular/common';
     <div class="categorias">
       <h3>Categorías</h3>
       <ul class="list-group">
-        <li
-          *ngFor="let categoria of categorias"
-          class="list-group-item list-group-item-action"
-          (click)="seleccionarCategoria(categoria)"
-        >
+        <li *ngFor="let categoria of categorias" class="list-group-item list-group-item-action"
+          (click)="seleccionarCategoria(categoria)" >
           {{ categoria }}
         </li>
       </ul>

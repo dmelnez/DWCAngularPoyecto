@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
 import { CategoriasComponent } from './categorias/categorias.component';
 import { DetallesComponent } from './detalles/detalles.component';
 import { LibrosService } from './servicios/libros.service';
+import { AniadirComponent } from './aniadir/aniadir.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, CategoriasComponent, DetallesComponent,],
+  imports: [CommonModule, RouterOutlet, CategoriasComponent, DetallesComponent, AniadirComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
